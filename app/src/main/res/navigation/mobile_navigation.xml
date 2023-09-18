@@ -22,4 +22,10 @@
         android:name="com.sayyid.fundamental_navdrawer.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_chart"
+        android:name="com.sayyid.fundamental_navdrawer.CartFragment"
+        android:label="@string/menu_cart"
+        tools:layout="@layout/fragment_cart"/>
 </navigation>
